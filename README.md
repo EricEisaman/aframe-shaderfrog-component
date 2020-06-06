@@ -54,5 +54,11 @@ ___
 #### In Your HTML
 - You can load your package via the **unpkg.com** cdn!
   - <a href="unpkg.com/lib2020" rel="noopener noreferrer ">**unpkg.com/lib2020**</a>
+  
+___
 
 
+#### If Neccessary You Can Also Unpublish a Version
+- In the **Terminal** ```pnpm run unpublish 0.0.10```
+
+___
