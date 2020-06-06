@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <title>CS1</title>
+    
+    <meta charset="UTF-8">
+    <meta name="description" content="Use shaders designed at shaderfrog.com in your A-Frame application.">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="SirFizX">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta property="og:site_name" content="CS1" />
+    <meta property="og:title" content="aframe-shaderfrog-component" />
+    <meta property="og:description" content="Use shaders designed at shaderfrog.com in your A-Frame application." />
+    <meta property="og:image" content="https://cdn.glitch.com/79dfcf15-2e86-4e07-a7f2-57d0ebfeae7f%2Fshaderfrog-logo.png?v=1591442163376" />
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/favicon.png">
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <script src="aframe-shaderfrog-component.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-box position="-1 0.5 -3" rotation="0 45 0" shader-frog="name:Polkadot_Shader"></a-box>
+      <a-sphere position="0 1.25 -5" radius="1.25" shader-frog="name:Goo_Shader"></a-sphere>
+      <a-sphere position="1 0.75 -3" radius="0.6" shader-frog="name:Thruster_Shader"></a-sphere>
+      <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" shader-frog></a-plane>
+      <a-sky color="#88abc9"></a-sky>
+    </a-scene>
+    <script>
+      //Customize the builtin shaders.
+      AFRAME.shaderfrog.Thruster_Shader.uniforms.backgroundColor.value.r = "0.2";
+      AFRAME.shaderfrog.Thruster_Shader.uniforms.backgroundColor.value.g = "0.4";
+      AFRAME.shaderfrog.Thruster_Shader.uniforms.backgroundColor.value.g = "1";
+    </script>
+  </body>
+</html>
