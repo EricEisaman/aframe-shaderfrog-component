@@ -1,7 +1,7 @@
 {
   "name": "aframe-shaderfrog-component",
   "author": "SirFizX",
-  "version": "0.0.15",
+  "version": "0.0.17",
   "description": "Use shaders designed at shaderfrog.com in your A-Frame application.",
   "homepage": "https://cs1.netlify.app/",
   "repository": {
@@ -23,7 +23,8 @@
     "m2":"cp -v ./dist/$npm_package_version/$npm_package_name.min.js.map dist/latest/",
     "dev": "pnpm run version && rollup -c --extend --environment PROD:0;refresh",
     "npmrc": "echo \"//registry.npmjs.org/:_authToken=${NPM_TOKEN}\" > dist/.npmrc",
-    "publish": "node pub-pj-update && pnpm run npmrc && cd /app/dist;npm publish",
+    "publish": "node pub-pj-update && pnpm run npmrc && cd /app/dist && npm publish",
+    "unpublish": "node unpub",
     "start": "node server.js"
   },
   "dependencies": {

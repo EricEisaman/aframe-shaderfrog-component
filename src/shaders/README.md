@@ -3,7 +3,7 @@ ___
 
 Remix this project then...
 
-Place your .json shaders exported from ShaderFrog in this directory then import them into the [main.js](https://glitch.com/edit/#!/aframe-shaderfrog-component?path=src%2Fmain.js%3A1%3A0) file and add it to the shaders array.
+Place your **.json** shaders exported from <a href="https://shaderfrog.com/app" rel="noopener noreferrer">ShaderFrog</a> in this directory, then import them into the [main.js](https://glitch.com/edit/#!/aframe-shaderfrog-component?path=src%2Fmain.js%3A1%3A0) file and add it to the shaders array.
 Remove any shaders you don't want.
 
 Example:

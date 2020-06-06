@@ -12,13 +12,16 @@ Use shaders designed at <a href="https://shaderfrog.com/app" rel="noopener noref
 
 
 
-
+___
 
 **Schema**
 
 | Parameter   | Default | Description |
 |-------------|---------|-------------|
 | name | Flowing_Circles_Shader | Specifies the shader to be used. |
+
+
+___
 
 **Builtin Shader Names**
 - CS1_Shader
@@ -37,6 +40,7 @@ Use shaders designed at <a href="https://shaderfrog.com/app" rel="noopener noref
 - Sun_Shader
 - Thruster_Shader
 
+___
 
 **HTML - Include after A-Frame in the HEAD**
 
@@ -45,7 +49,7 @@ Use shaders designed at <a href="https://shaderfrog.com/app" rel="noopener noref
 <script src="https://unpkg.com/aframe-shaderfrog-component"></script>
 ```
 
-
+___
 
 **HTML - Usage in A-Frame Scene**
 
@@ -58,6 +62,8 @@ Use shaders designed at <a href="https://shaderfrog.com/app" rel="noopener noref
 </a-scene>
 ```
 
+___
+
 **Customize Shaders in JavaScript**
 
 Access shader references via ```AFRAME.shaderfrog```.
@@ -65,4 +71,13 @@ Access shader references via ```AFRAME.shaderfrog```.
 ```
 AFRAME.shaderfrog.Thruster_Shader.uniforms.backgroundColor.value.r = "0.2";
 AFRAME.shaderfrog.Thruster_Shader.uniforms.backgroundColor.value.g = "1";
+
 ```
+
+___
+
+**Build and Publish Your Own Custom Shader Packs**
+
+- <a href="https://glitch.com/edit/#!/remix/aframe-shaderfrog-component" rel="noopener noreferrer">Remix</a> this project on Glitch
+
+- Follow these <a href="https://glitch.com/edit/#!/aframe-shaderfrog-component?path=src%2Fshaders%2FREADME.md%3A22%3A0" rel="noopener noreferrer">instructions</a>.
