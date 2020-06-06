@@ -53,6 +53,5 @@ Access shader references via ```AFRAME.shaderfrog```.
 
 ```
 AFRAME.shaderfrog.Thruster_Shader.uniforms.backgroundColor.value.r = "0.2";
-AFRAME.shaderfrog.Thruster_Shader.uniforms.backgroundColor.value.g = "0.4";
 AFRAME.shaderfrog.Thruster_Shader.uniforms.backgroundColor.value.g = "1";
 ```
