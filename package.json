@@ -1,7 +1,7 @@
 {
   "name": "aframe-shaderfrog-component",
   "author": "SirFizX",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "Use shaders designed at shaderfrog.com in your A-Frame application.",
   "homepage": "https://cs1.netlify.app/",
   "repository": {
