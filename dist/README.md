@@ -4,6 +4,16 @@ ___
 
 Use shaders designed at <a href="https://shaderfrog.com/app" rel="noopener noreferrer">ShaderFrog</a> in your A-Frame applications.
 
+
+![demo gif](https://cdn.glitch.com/79dfcf15-2e86-4e07-a7f2-57d0ebfeae7f%2Faframe-shaderfrog-component.gif?v=1591456179970)
+
+
+<a href="https://aframe-shaderfrog-component.glitch.me/" rel="noopener noreferrer">**Demo**</a>
+
+
+
+
+
 **Schema**
 
 | Parameter   | Default | Description |
@@ -28,9 +38,10 @@ Use shaders designed at <a href="https://shaderfrog.com/app" rel="noopener noref
 - Thruster_Shader
 
 
-**HTML - Include the Component in the HEAD**
+**HTML - Include after A-Frame in the HEAD**
 
 ```
+<script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
 <script src="https://unpkg.com/aframe-shaderfrog-component"></script>
 ```
 
