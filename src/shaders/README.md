@@ -14,7 +14,10 @@ shaders['Polkadot_Shader']=Polkadot_Shader;
 
 ```
 
-Bump the version in package.json.
+Set a <a href="https://remarkablemark.org/npm-package-name-checker/" rel="noopener noreferrer">unique package name</a> in the **package.json**.
+
+
+Set your first version to start at **0.0.10** in the **package.json**.
 
 Perform a development build with ```pnpm run dev``` in the **Terminal**.
 
