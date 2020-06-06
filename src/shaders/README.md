@@ -25,7 +25,7 @@ Perform a production build with ```pnpm run prod``` in the **Terminal**.
 
 Your production build will appear in the associated **dist/<version>** folder.
 
-If you wish, you can add your **NPM_TOKEN** in **.env** an publish your own custom shaders package ```pnpm run publish``` in the **Terminal**.
+If you wish, you can add your **NPM_TOKEN** in **.env** and publish your own custom shaders package with ```pnpm run publish``` in the **Terminal**.
 
 
 
