@@ -36,7 +36,7 @@ ___
 *Use the following pattern to publish any npm package from Glitch*
 
 #### Do Once:
-If you wish to create your own modified version of the CS1 Game Server:
+
 - Create an <a href="https://www.npmjs.com/" rel="noopener noreferrer ">**npm account**</a>
 - Create an <a href="https://docs.npmjs.com/creating-and-viewing-authentication-tokens" rel="noopener noreferrer ">**npm token**</a>
 - Record your **npm token** in **.env**.
